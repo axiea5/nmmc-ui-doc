@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "nmmc-ui-doc nm使用指南",
   "main": "index.js",
+  "private": false,
   "directories": {
     "doc": "docs"
   },
