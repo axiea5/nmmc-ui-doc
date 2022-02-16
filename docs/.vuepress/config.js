@@ -16,12 +16,6 @@ module.exports = {
       '/guide/': [
         '',
         'button',
-      ],
-      // fallback
-      '/': [
-        '',        /* / */
-        'contact', /* /contact.html */
-        'about'    /* /about.html */
       ]
     }
   },
