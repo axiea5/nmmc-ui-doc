@@ -8,7 +8,7 @@ module.exports = {
       { text: 'github', link: 'https://github.com/axiea5/nmmc-ui' }
     ],
     sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
+    sidebarDepth: 1, // 侧边栏显示2级
     lastUpdated: '上次更新', // string | boolean
     author: 'echo',
     sidebar:
@@ -16,20 +16,17 @@ module.exports = {
       '/guide/': [
         '',
         'button',
+        'content'
       ]
     }
   },
   plugins: [
-    ['@mr-hope/copy-code',{
-      locales:{
-        copy: "复制",
-        hint: "复制成功！"
-      }
+    ['one-click-copy', {
+      copyMessage: '复制成功!', // default is 'Copied successfully!'
+      toolTipMessage: '复制到剪切板', // default is ''Copy to clipboard'
     }],
     ['dynamic-title', { //动态标题
-      showIcon: "/logo.png",
       showText: "(/≧▽≦/)你来啦！",
-      hideIcon: "/failure.ico",
       hideText: "o(´^｀)o你快回来！",
       recoverTime: 2000
     }],

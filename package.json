@@ -18,7 +18,7 @@
     "vuepress-plugin-dynamic-title": "^1.0.0"
   },
   "devDependencies": {
-    "@mr-hope/vuepress-plugin-copy-code": "^1.26.0",
-    "@vuepress/plugin-pwa": "^2.0.0-beta.35"
+    "@vuepress/plugin-pwa": "^2.0.0-beta.35",
+    "vuepress-plugin-one-click-copy": "^1.0.6"
   }
 }

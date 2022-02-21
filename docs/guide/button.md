@@ -31,7 +31,7 @@ BB叨：暂时就做了个大小选项，本来想改颜色，但是感觉啥颜
 ```
 
 ## 参数说明
-|参数 |说明 |默认  |可选  |
-|-----|-----|-----|-----|
-|size|按钮大小|default|small/large|
-|disabled|禁止点击|false|true|
+|参数 |说明 |类型|默认  |可选  |
+|-----|-----|-----|-----|-----|
+|size|按钮大小|string|default|small/large|
+|disabled|禁止点击|boolean|false|true|
