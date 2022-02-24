@@ -5,9 +5,8 @@ BB叨：暂时就做了个大小选项，本来想改颜色，但是感觉啥颜
 
 ## 基础样式
 
-<ClientOnly>
   <div class="client-style">
-  <div class="content">
+    <div class="content">
       <nm-button size="large">大按钮</nm-button>
     </div>
     <div class="content">
@@ -20,7 +19,6 @@ BB叨：暂时就做了个大小选项，本来想改颜色，但是感觉啥颜
       <nm-button :disabled="true">禁止按钮</nm-button>
     </div>
   </div>
-</ClientOnly>
 
 ## 代码查看
 ```html

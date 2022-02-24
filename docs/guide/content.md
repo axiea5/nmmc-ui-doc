@@ -6,36 +6,33 @@
 
 ## 基础样式
 
-<ClientOnly>
   <div class="client-only" style="background:url('../bg.jpg');padding:20px;margin-top:13.6px;">
-  <div class="client-style">
-    <nm-content :hover="true">
-      块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
-    </nm-content>
-  </div>
     <div class="client-style">
-    <nm-content type="frosted">
-      块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
-    </nm-content>
+      <nm-content :hover="true">
+        块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
+      </nm-content>
+    </div>
+    <div class="client-style">
+      <nm-content type="frosted">
+        块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
+      </nm-content>
+    </div>
+    <div class="client-style">
+      <nm-content :radius="14">
+        块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
+      </nm-content>
+    </div>
+    <div class="client-style">
+      <nm-content type="frosted" :radius="14">
+        块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
+      </nm-content>
+    </div>
+    <div class="client-style">
+      <nm-content :hover="true">
+        块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
+      </nm-content>
+    </div>
   </div>
-  <div class="client-style">
-    <nm-content :radius="14">
-      块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
-    </nm-content>
-  </div>
-  <div class="client-style">
-    <nm-content type="frosted" :radius="14">
-      块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
-    </nm-content>
-  </div>
-  <div class="client-style">
-    <nm-content :hover="true">
-      块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器内容，块级容器容，块级容器内容，块级容器内容，块级容器内容，块级容器内容
-    </nm-content>
-  </div>
-  </div>
-</ClientOnly>
-
 
 ## 代码查看
 
